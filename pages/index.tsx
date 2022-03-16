@@ -7,9 +7,11 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faviconcat.ico" />
       </Head>
-      <div className="font-bold text-6xl flex min-h-screen flex-col items-center justify-center py-2">test</div>
+      <div className="flex min-h-screen flex-col items-center justify-center py-2">
+        Test
+      </div>
     </div>
   )
 }
