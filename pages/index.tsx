@@ -1,16 +1,17 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import type { NextPage } from "next"
+import Head from "next/head"
+import { NoisyBg } from "../components/noisy-bg"
+import { SideBar } from "../components/sidebar"
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>villetoimela.com</title>
         <link rel="icon" href="/faviconcat.ico" />
       </Head>
-      <div className="flex min-h-screen flex-col items-center justify-center py-2">
-        Test
-      </div>
+      <NoisyBg />
+      <SideBar />
     </div>
   )
 }
