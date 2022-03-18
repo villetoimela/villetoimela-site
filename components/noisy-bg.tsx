@@ -17,7 +17,7 @@ export function NoisyBg(props: NoisyBgProps) {
         backgroundRepeat: "repeat",
         opacity: ".9",
         visibility: "visible",
-        backgroundColor: "#111111",
+        backgroundColor: "#171717",
       }}
     ></div>
   )

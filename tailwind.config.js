@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Syne: ["Syne"],
+       },
       keyframes: {
         bgAnimation: {
           "0%": { 
