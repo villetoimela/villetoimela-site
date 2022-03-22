@@ -3,8 +3,10 @@ import Head from "next/head"
 import { Hero } from "../components/hero"
 import { NoisyBg } from "../components/noisy-bg"
 import { SideBar } from "../components/sidebar"
+import { SideBarRight } from "../components/sidebar-right"
 import { Welcome } from "../components/welcome"
-
+import { About } from "../components/about"
+import AboutCta from "../components/about-cta"
 const Home: NextPage = () => {
   return (
     <div>
@@ -16,6 +18,8 @@ const Home: NextPage = () => {
       <SideBar />
       <Welcome imgSrc="/welcome-sivulle.png" />
       <Hero imgSrc="/kissa-sivulle.png" />
+      <About />
+      <AboutCta />
     </div>
   )
 }
