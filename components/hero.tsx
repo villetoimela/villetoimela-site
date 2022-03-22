@@ -14,19 +14,19 @@ export function Hero({ imgSrc }: HeroProps) {
           <p className="mb-2 text-sm font-bold uppercase text-gray-300">
             UX/UI designer & front-end web developer
           </p>
-          <h1 className="text-4xl font-extrabold tracking-tight text-gray-200 sm:text-5xl xl:text-6xl">
-            <span className="block xl:inline">THEY CALL ME </span>
+          <h1 className="text-4xl font-extrabold tracking-tight text-gray-100 sm:text-5xl xl:text-6xl">
+            <span className="block xl:inline">HEI, MIE OON </span>
             <span className="block tracking-widest text-red-300 xl:inline">
               VILLE
             </span>
           </h1>
         </div>
-        <p className="my-8 text-lg text-gray-300 md:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-          sed! Veniam, soluta? Cupiditate assumenda magni ex in voluptas et
-          exercitationem!
+        <p className="my-8 text-lg tracking-tight text-gray-300">
+          Olen 26-vuotias ucceli, jonka tie on päätynyt pohjosesta tänne
+          Keski-Suomeen asustelemaan. Devaustaustaa löytyy nyt reippaan vuoden
+          ajalta, keskittyen pääosin fronttipuoleen!
         </p>
-        <div className="relative flex space-x-3 self-center pt-4 transition duration-200 hover:-translate-y-1  lg:self-start">
+        <div className="relative flex space-x-3 self-center pt-4 duration-200 hover:scale-110  lg:self-start">
           <Link href="/" passHref>
             <a href="dummy" className="text-md group  relative">
               <span className="relative z-10 rounded-lg border-4 border-red-300 bg-red-300 px-5 py-2 font-bold text-gray-900 duration-300 group-hover:text-gray-200">
