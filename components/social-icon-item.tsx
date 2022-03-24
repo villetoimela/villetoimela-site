@@ -16,7 +16,7 @@ export function SocialIconItem({
   linkUrl,
 }: SocialIconItemProps) {
   return (
-    <div className="cursor-pointer transition-transform hover:-translate-y-2">
+    <div className="z-50 cursor-pointer transition-transform hover:-translate-y-2">
       <Link href={linkUrl}>
         <Image src={imgSrc} width={width} height={height} />
       </Link>

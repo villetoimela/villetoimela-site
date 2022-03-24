@@ -30,7 +30,7 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
               git on tietysti tuttu kaveri, samoin isoimmat forget
               workfloweineen (PR:t, issuet ym).
             </p>
-            <div className="flex items-center justify-around  gap-4 pt-10 lg:justify-start">
+            <div className="flex items-center justify-around gap-4 pt-10 lg:justify-start">
               <SocialIconItem
                 imgSrc={"/icon-instagram.svg"}
                 width={42}
