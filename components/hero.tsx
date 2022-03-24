@@ -22,7 +22,7 @@ export function Hero({ imgSrc }: HeroProps) {
             </span>
           </h1>
         </div>
-        <p className="my-8 text-lg tracking-normal text-gray-300">
+        <p className="my-8 text-lg tracking-normal text-gray-100">
           26-vuotias ucceli, jonka tie on päätynyt pohjosesta tänne
           Keski-Suomeen asustelemaan. Devaustaustaa löytyy nyt reippaan vuoden
           ajalta, keskittyen pääosin fronttipuoleen!

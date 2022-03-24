@@ -9,6 +9,9 @@ import { About } from "../components/about"
 import AboutCta from "../components/about-cta"
 import AboutReverse from "../components/about-reverse"
 import Skills from "../components/skills"
+import { Works } from "../components/works"
+import { Contact } from "../components/contact"
+import ContactCta from "../components/contact-cta"
 const Home: NextPage = () => {
   return (
     <div>
@@ -24,6 +27,9 @@ const Home: NextPage = () => {
       <AboutCta />
       <AboutReverse imgSrc={"/pilvi-ukkeli-sivulle.png"} />
       <Skills />
+      <Works />
+      <ContactCta />
+      <Contact />
     </div>
   )
 }
