@@ -7,6 +7,8 @@ import { SideBarRight } from "../components/sidebar-right"
 import { Welcome } from "../components/welcome"
 import { About } from "../components/about"
 import AboutCta from "../components/about-cta"
+import AboutReverse from "../components/about-reverse"
+import Skills from "../components/skills"
 const Home: NextPage = () => {
   return (
     <div>
@@ -18,8 +20,10 @@ const Home: NextPage = () => {
       <SideBar />
       <Welcome imgSrc="/welcome-sivulle.png" />
       <Hero imgSrc="/kissa-sivulle.png" />
-      <About />
+      <About imgSrc={"/lääppäri-sivulle.png"} />
       <AboutCta />
+      <AboutReverse imgSrc={"/pilvi-ukkeli-sivulle.png"} />
+      <Skills />
     </div>
   )
 }
