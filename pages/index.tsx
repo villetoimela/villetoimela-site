@@ -3,7 +3,6 @@ import Head from "next/head"
 import { Hero } from "../components/hero"
 import { NoisyBg } from "../components/noisy-bg"
 import { SideBar } from "../components/sidebar"
-import { SideBarRight } from "../components/sidebar-right"
 import { Welcome } from "../components/welcome"
 import { About } from "../components/about"
 import AboutCta from "../components/about-cta"
@@ -12,6 +11,7 @@ import Skills from "../components/skills"
 import { Works } from "../components/works"
 import { Contact } from "../components/contact"
 import ContactCta from "../components/contact-cta"
+import { Bg } from "../components/bg-black"
 const Home: NextPage = () => {
   return (
     <div>
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <title>villetoimela.com</title>
         <link rel="icon" href="/faviconcat.ico" />
       </Head>
-      <NoisyBg />
+      <Bg />
       <SideBar />
       <Welcome imgSrc="/welcome-sivulle.png" />
       <Hero imgSrc="/kissa-sivulle.png" />
