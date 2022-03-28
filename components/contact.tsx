@@ -12,11 +12,15 @@ export function Contact({}: ContactProps) {
       id="contact"
       className="mx-auto border-4 border-gray-100 bg-black pt-20 font-Syne"
     >
+      <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
+        {" "}
+        {"< contact >"}{" "}
+      </p>
       <div className="flex overflow-hidden">
         <div className="flex-1 pt-8 sm:pt-14 md:pt-20 lg:pt-24 xl:pt-32 2xl:pt-40">
           <Fade left>
             <Image
-              src={"/vasen-käsi-sivulle.png"}
+              src={"/vasen-käsi-sivulle.svg"}
               width={1710}
               height={909}
               layout="responsive"
@@ -25,7 +29,7 @@ export function Contact({}: ContactProps) {
         </div>
         <div className=" flex-1">
           <Fade right>
-            <img src="/oikea-käsi-sivulle.png" width={1725} height={786} />
+            <img src="/oikea-käsi-sivulle.svg" width={1725} height={786} />
           </Fade>
         </div>
       </div>
@@ -55,7 +59,7 @@ export function Contact({}: ContactProps) {
                 imgSrc={"/icon-instagram.svg"}
                 width={42}
                 height={42}
-                linkUrl={"/"}
+                linkUrl={"https://www.instagram.com/villetoimela/"}
               />
             </Fade>
             <Fade left>
@@ -63,7 +67,7 @@ export function Contact({}: ContactProps) {
                 imgSrc={"/icon-gitlab.svg"}
                 width={50}
                 height={50}
-                linkUrl={"/"}
+                linkUrl={"https://gitlab.com/villetoimela"}
               />
             </Fade>
             <Fade right>
@@ -71,18 +75,19 @@ export function Contact({}: ContactProps) {
                 imgSrc={"/icon-linkedin.svg"}
                 width={43}
                 height={43}
-                linkUrl={"/"}
+                linkUrl={"https://www.linkedin.com/in/ville-toimela-7ba2841b5/"}
               />
             </Fade>
             <Fade right>
               <SocialIconItem
-                imgSrc={"/icon-youtube.svg"}
-                width={52}
-                height={52}
-                linkUrl={"/"}
+                imgSrc={"/icon-whatsapp.svg"}
+                width={45}
+                height={45}
+                linkUrl={"https://wa.me/358405137883"}
               />
             </Fade>
           </div>
+
           <Fade bottom>
             <p className="mt-8 text-center text-base font-bold leading-6 text-gray-400">
               © 2022 Hiisi Digital Oy. All rights reserved.
@@ -90,6 +95,10 @@ export function Contact({}: ContactProps) {
           </Fade>
         </div>
       </div>
+      <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
+        {" "}
+        {"< /contact >"}{" "}
+      </p>
     </div>
   )
 }

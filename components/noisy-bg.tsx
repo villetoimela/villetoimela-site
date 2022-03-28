@@ -3,7 +3,7 @@ export interface NoisyBgProps {}
 export function NoisyBg(props: NoisyBgProps) {
   return (
     <div
-      className="-z-50 m-0 animate-bgAnimation"
+      className="-z-50 m-0 animate-bgAnimation overflow-hidden overflow-x-hidden overflow-y-hidden"
       style={{
         position: "fixed",
         top: "-50%",

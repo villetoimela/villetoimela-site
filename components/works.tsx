@@ -8,6 +8,10 @@ export interface WorksProps {}
 export function Works({}: WorksProps) {
   return (
     <div id="works" className=" overflow-hidden">
+      <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
+        {" "}
+        {"< works >"}{" "}
+      </p>
       <Fade left>
         <h1 className="mx-auto px-11 pb-5 font-Syne text-3xl font-extrabold tracking-widest text-red-300 sm:text-7xl">
           PORTFOLIO
@@ -17,12 +21,12 @@ export function Works({}: WorksProps) {
         <WorksItem
           title={"personal portfolio"}
           text={
-            "tehty kaikilla mukavilla millä seonb tehty eli stäcki ja jotai tähä pientä"
+            "Oma personal website joka kasattu uudestaan entisen HTML/CSS sivun tieltä. Sivu on tehty myös täysin responsiiviseksi eri ruudun kokoja ajatellen"
           }
-          imgSrc={"/sitescreenshot.png"}
-          imgWidth={1897}
-          imgHeight={946}
-          tag1="Web"
+          imgSrc={"/testSCreenshotMaster.png"}
+          imgWidth={1903}
+          imgHeight={7165}
+          tag1="React / NextJS / TypeScript / TailwindCSS"
         />
       </Fade>
       <Fade right>
@@ -31,12 +35,16 @@ export function Works({}: WorksProps) {
           text={
             "tehty kaikilla mukavilla millä seonb tehty eli stäcki ja jotai tähä pientä"
           }
-          imgSrc={"/paska.png"}
-          imgWidth={2880}
-          imgHeight={1642}
+          imgSrc={"/testSCreenshotMaster.png"}
+          imgWidth={1903}
+          imgHeight={7165}
           tag1="design"
         />
       </Fade>
+      <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
+        {" "}
+        {"< /works >"}{" "}
+      </p>
     </div>
   )
 }
