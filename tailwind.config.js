@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         Syne: ["Syne"],
        },
+
       keyframes: {
         bgAnimation: {
           "0%": { 
@@ -47,10 +48,29 @@ module.exports = {
     },
     animation: {
       bgAnimation: "bgAnimation .2s infinite",
-    }
+    },
 
+    keyframes: {
+      float: {
+          '0%': {
+              transform: 'translatey(0px)'
+          },
+          '50%': {
+              transform: 'translatey(-40px)'
+               
+          },
+          '100%': {
+            transform: 'translatey(0px)'
+        },
+      }
+  },
+  animation: {
+      float: 'float 6s ease-in-out infinite',
+  },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
   mode: "jit",
 }

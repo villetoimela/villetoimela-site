@@ -12,6 +12,7 @@ import { Works } from "../components/works"
 import { Contact } from "../components/contact"
 import ContactCta from "../components/contact-cta"
 import { Bg } from "../components/bg-black"
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -21,11 +22,11 @@ const Home: NextPage = () => {
       </Head>
       <Bg />
       <SideBar />
-      <Welcome imgSrc="/welcome-sivulle.png" />
-      <Hero imgSrc="/kissa-sivulle.png" />
-      <About imgSrc={"/lääppäri-sivulle.png"} />
+      <Welcome imgSrc="/welcome-sivulle.svg" />
+      <Hero imgSrc="/kissa-sivulle.svg" />
+      <About imgSrc={"/läppäri-sivulle.svg"} />
       <AboutCta />
-      <AboutReverse imgSrc={"/pilvi-ukkeli-sivulle.png"} />
+      <AboutReverse imgSrc={"/pilvi-ukkeli-sivulle.svg"} />
       <Skills />
       <Works />
       <ContactCta />

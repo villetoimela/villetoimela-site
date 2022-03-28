@@ -9,6 +9,10 @@ export interface SkillsProps {}
 export function Skills(props: SkillsProps) {
   return (
     <div className="mx-auto w-full px-11 pb-44 font-Syne">
+      <p className="mx-auto max-w-7xl pb-4 text-xs font-normal italic tracking-widest text-gray-400">
+        {" "}
+        {"< skills >"}{" "}
+      </p>
       <div className="mx-auto text-center lg:max-w-xl">
         <Fade bottom>
           <p className="text-lg font-extrabold uppercase tracking-wide text-gray-100 sm:text-4xl">
@@ -19,7 +23,7 @@ export function Skills(props: SkillsProps) {
           <Image src={"/arrow-down.svg"} width={70} height={70} />
         </div>
       </div>
-      <div className="mx-auto grid grid-cols-3 gap-5 md:grid-cols-5 lg:max-w-screen-sm">
+      <div className="mx-auto grid grid-cols-3 gap-5 text-center md:grid-cols-5 lg:max-w-screen-sm">
         <Fade bottom>
           <div className="p-5">
             <SkillsItem imgSrc={"/skills-tailwind.svg"} text={"TailwindCSS"} />{" "}
@@ -63,8 +67,16 @@ export function Skills(props: SkillsProps) {
           <div className="p-5">
             <SkillsItem imgSrc={"/skills-npm.svg"} text={"npm"} />{" "}
           </div>
+          <SkillsItem
+            imgSrc={"/skills-responsive.svg"}
+            text={"Responsive design"}
+          />
         </Fade>
       </div>
+      <p className="mx-auto max-w-7xl pt-4 pb-4 text-xs font-normal italic tracking-widest text-gray-400">
+        {" "}
+        {"< /skills >"}{" "}
+      </p>
       <div className="mx-auto mt-20 w-full max-w-7xl border border-gray-100 sm:mb-20"></div>
     </div>
   )

@@ -43,36 +43,42 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                   imgSrc={"/icon-instagram.svg"}
                   width={42}
                   height={42}
-                  linkUrl={"/"}
+                  linkUrl={"https://www.instagram.com/villetoimela/"}
                 />
                 <SocialIconItem
                   imgSrc={"/icon-gitlab.svg"}
                   width={50}
                   height={50}
-                  linkUrl={"/"}
+                  linkUrl={"https://gitlab.com/villetoimela"}
                 />
                 <SocialIconItem
                   imgSrc={"/icon-linkedin.svg"}
                   width={43}
                   height={43}
-                  linkUrl={"/"}
+                  linkUrl={
+                    "https://www.linkedin.com/in/ville-toimela-7ba2841b5/"
+                  }
                 />
                 <SocialIconItem
-                  imgSrc={"/icon-youtube.svg"}
-                  width={52}
-                  height={52}
-                  linkUrl={"/"}
+                  imgSrc={"/icon-whatsapp.svg"}
+                  width={45}
+                  height={45}
+                  linkUrl={"https://wa.me/358405137883"}
                 />
               </div>
             </Fade>
             <div className="mt-4 border border-gray-100 sm:mb-20"></div>
           </div>
-          <div className="mt-16 flex w-full items-center overflow-hidden lg:mt-0 lg:w-1/3 lg:pb-0 lg:pr-24">
+          <div className="mt-16 flex w-full animate-float items-center overflow-hidden lg:mt-0 lg:w-1/3 lg:pb-0 lg:pr-24">
             <Fade right>
               <Image src={imgSrc} width={1122} height={1912} />
             </Fade>
           </div>
         </div>
+        <p className="text-xs font-normal italic tracking-widest text-gray-400">
+          {" "}
+          {"< /about >"}{" "}
+        </p>
       </div>
     </div>
   )

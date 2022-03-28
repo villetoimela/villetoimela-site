@@ -9,7 +9,6 @@ export interface WorksItemProps {
   imgWidth: number
   imgHeight: number
   tag1?: string
-  tag2?: string
 }
 
 export function WorksItem({
@@ -19,7 +18,6 @@ export function WorksItem({
   imgWidth,
   imgHeight,
   tag1,
-  tag2,
 }: WorksItemProps) {
   return (
     <div className="mb-10 flex w-full flex-col bg-black bg-opacity-30 font-Syne md:flex-row">
@@ -27,22 +25,16 @@ export function WorksItem({
         <h2 className="max-w-lg text-2xl font-extrabold uppercase text-gray-100 lg:text-4xl xl:text-5xl">
           {title}
         </h2>
-        <p className="text-md mt-5 max-w-lg font-bold text-gray-400 ">{text}</p>
+        <p className="text-md mt-5 max-w-lg font-bold text-gray-300 ">{text}</p>
         <div className="flex gap-2 pt-4 font-bold">
-          <p className=" flex w-auto rounded-md bg-red-300 bg-opacity-90 px-4 text-center text-sm">
+          <p className=" flex w-auto rounded-md bg-opacity-90 text-center text-sm text-red-300">
             {tag1}
           </p>
         </div>
-        <div className="flex gap-2 pt-4 font-bold">
-          <p className=" flex w-auto rounded-md bg-red-300 bg-opacity-90 px-4 text-center text-sm">
-            {tag2}
-          </p>
-        </div>
-        <div className="mt-4 max-w-4xl border border-gray-100 sm:mb-20"></div>
+        <div className=" max-w-4xl border border-gray-100 sm:mb-20"></div>
       </div>
-
-      <div className="min-h-full w-full self-center md:w-1/2 ">
-        <div className="m-4 xl:m-14 ">
+      <div className=" w-full self-center md:w-1/2 ">
+        <div className=" h-64 overflow-y-auto p-4 duration-300 scrollbar-hide hover:scale-110 sm:h-96">
           <Image
             src={imgSrc}
             width={imgWidth}

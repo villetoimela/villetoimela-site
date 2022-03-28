@@ -11,7 +11,7 @@ export function AboutCta(props: AboutCtaProps) {
       <div className="mx-auto max-w-7xl px-11 py-8 sm:py-10 lg:py-20">
         <div className="overflow-hidden rounded-lg border-2 border-gray-900 md:py-6 md:px-6 md:shadow-xl lg:flex lg:items-center lg:justify-between lg:p-16 lg:py-12">
           <div className="bg-purple-1000 rounded-lg p-6 md:p-0 md:pb-4">
-            <Fade bottom>
+            <Fade bottom delay={200}>
               <h2 className=" text-xl font-bold uppercase tracking-tight text-gray-900 sm:text-5xl ">
                 Webbiprojekti mielessä? <br /> tarvitko fronttidevaajaa
                 projektiisi?
@@ -25,10 +25,10 @@ export function AboutCta(props: AboutCtaProps) {
               </p>
             </Fade>
           </div>
-          <div className="flex w-full sm:w-auto lg:flex-shrink-0">
+          <div className="z-50 flex w-full cursor-pointer sm:w-auto lg:flex-shrink-0">
             <Button1
               btnText="Ota yhteyttä >"
-              className="uppercase tracking-wide"
+              className=" uppercase tracking-wide"
             />
           </div>
         </div>
