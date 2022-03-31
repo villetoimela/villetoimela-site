@@ -13,7 +13,7 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
     <div className="mx-auto w-full px-11 py-44 ">
       <div className="relative mx-auto max-w-7xl xl:px-0">
         <Fade left>
-          <h2 className="font-Syne text-3xl font-extrabold tracking-widest text-gray-100 sm:text-7xl">
+          <h2 className="font-Syne text-3xl font-extrabold tracking-widest text-white sm:text-7xl">
             LISÄÄ MINUSTA
           </h2>
         </Fade>
@@ -22,23 +22,27 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
           <div className="relative w-full lg:w-2/3">
             <Fade bottom>
               <div>
-                <p className="font-Syne text-base font-bold tracking-wider text-gray-100 ">
+                <p className="font-Syne text-base font-bold tracking-wider text-white ">
                   Opintojani edeltänyt itseoppimis- ja harrastuneisuusvaihe on
-                  keskittynyt pääosin fronttipuoleen, mutta etenkin nyt
+                  keskittynyt pääosin fronttipuoleen, mutta etenkin
                   ohjelmistokehittäjän opinnoissa olen saanut paljon merkittävää
-                  näkökulmaa myös konepellin alle. Vahvimmat työkalut ovat tällä
-                  hetkellä perinteiset HTML, CSS sekä JS, mutta viime aikoina on
-                  myös tullut omaksuttua paljon C#:ia ja dotnetin maailmaa,
-                  mukaanlukien OOP, MVC ym. paradigmat. <br /> Viimeisimpinä
-                  työkaluina on pyörinyt React (NextJS:llä), TypeScriptillä ja
-                  olen täysin rakastunut Tailwindiin! <br /> Versionhallinnan
-                  puolelta git on tietysti tuttu kaveri, samoin isoimmat forget
-                  workfloweineen (PR:t, issuet ym).
+                  näkökulmaa myös konepellin alle. Vahvimmat työkaluni ovat
+                  perinteiset HTML, CSS sekä JS, mutta viime aikoina on myös
+                  tullut omaksuttua paljon C#:ia ja dotnetin maailmaa,
+                  mukaanlukien OOP, MVC ym. paradigmat. Tällä hetkellä eniten
+                  kiinnostaa web-ohjelmointi ja modernit komponenttipohjaiset JS
+                  framikset, joista erityisesti react ja vue. Intoa ja
+                  mielenkiintoa löytyy tietysti laajasti kaikkiin muihinkin
+                  moderneihin frameworkkeihin ja teknologioihin! Viimeisimpinä
+                  työkaluina onkin pyörinyt React (Nextillä) ja TypeScript sekä
+                  TailwindCSS, johon olenkin rakastunut täysin. <br />{" "}
+                  Versionhallinnan puolelta git on tietysti tuttu kaveri, samoin
+                  isoimmat forget workfloweineen (PR:t, issuet ym).
                 </p>
               </div>
             </Fade>
             <Fade bottom>
-              <div className="flex items-center justify-around gap-4 pt-10 lg:justify-start">
+              <div className="z-50 flex items-center justify-around gap-4 pt-10 lg:justify-start">
                 <SocialIconItem
                   imgSrc={"/icon-instagram.svg"}
                   width={42}
@@ -67,7 +71,7 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                 />
               </div>
             </Fade>
-            <div className="mt-4 border border-gray-100 sm:mb-20"></div>
+            <div className="mt-4 border border-white sm:mb-20"></div>
           </div>
           <div className="mt-16 flex w-full animate-float items-center overflow-hidden lg:mt-0 lg:w-1/3 lg:pb-0 lg:pr-24">
             <Fade right>

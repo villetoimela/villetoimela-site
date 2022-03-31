@@ -15,13 +15,13 @@ export function Hero({ imgSrc }: HeroProps) {
       <div className="mb-12 flex w-full flex-col justify-center lg:mb-0 lg:w-1/2 lg:items-start">
         <div className="relative">
           <Fade top delay={2500}>
-            <p className="flex justify-start pb-4 text-xs font-normal italic tracking-widest text-gray-400">
+            <p className="flex justify-start pb-10 text-xs font-normal italic tracking-widest text-gray-400">
               {" "}
               {"< hero >"}{" "}
             </p>
           </Fade>
           <Fade left delay={1000}>
-            <h1 className=" text-4xl font-extrabold tracking-tight text-gray-100 sm:text-5xl xl:text-6xl">
+            <h1 className=" text-4xl font-extrabold tracking-tight text-white sm:text-5xl xl:text-6xl">
               <span className="block xl:inline">HEI, OLEN </span>
               <span className="block tracking-widest text-red-300 xl:inline">
                 VILLE
@@ -30,13 +30,13 @@ export function Hero({ imgSrc }: HeroProps) {
           </Fade>
         </div>
         <Fade bottom delay={1500}>
-          <p className="my-4 text-lg tracking-normal text-gray-100">
-            26-vuotias UI/UX suunnittelija ja front-end web kehittäjä sekä tuore
-            että innokas ohjelmistoalan yrittäjä
+          <p className="my-4 text-lg tracking-normal text-white">
+            26-vuotias UI/UX-suunnittelija ja front-end web-kehittäjä sekä tuore
+            ja innokas ohjelmistoalan yrittäjä
           </p>
         </Fade>
         <Fade bottom delay={2500}>
-          <div className="flex items-center justify-around gap-4 lg:justify-start">
+          <div className="z-30 flex items-center justify-around gap-4 lg:justify-start">
             <SocialIconItem
               imgSrc={"/icon-instagram.svg"}
               width={32}
@@ -62,7 +62,7 @@ export function Hero({ imgSrc }: HeroProps) {
               linkUrl={"https://wa.me/358405137883"}
             />
           </div>
-          <p className="flex justify-start pt-4 text-xs font-normal italic tracking-widest text-gray-400">
+          <p className="flex justify-start pt-10 text-xs font-normal italic tracking-widest text-gray-400">
             {" "}
             {"< /hero >"}{" "}
           </p>

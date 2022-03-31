@@ -10,7 +10,7 @@ export function Contact({}: ContactProps) {
   return (
     <div
       id="contact"
-      className="mx-auto border-4 border-gray-100 bg-black pt-20 font-Syne"
+      className="mx-auto border-4 border-white bg-black pt-20 font-Syne"
     >
       <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
         {" "}
@@ -33,7 +33,7 @@ export function Contact({}: ContactProps) {
           </Fade>
         </div>
       </div>
-      <div className="mx-auto px-11 pb-5 text-center text-2xl font-extrabold tracking-wide text-gray-100 sm:text-6xl lg:text-8xl">
+      <div className="mx-auto px-11 pb-5 text-center text-2xl font-extrabold tracking-wide text-white sm:text-6xl lg:text-8xl">
         <Fade bottom>
           <h1>OTA YHTEYTTÄ</h1>
         </Fade>

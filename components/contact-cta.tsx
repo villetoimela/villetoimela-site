@@ -30,7 +30,7 @@ export function ContactCta(props: ContactCtaProps) {
               <Fade bottom>
                 <a
                   href="#"
-                  className="text-md relative inline-block w-full whitespace-nowrap rounded-md bg-gray-900 px-4 py-4 text-center font-semibold text-gray-100 outline-none transition duration-300 hover:bg-gray-700 focus-visible:ring active:bg-white sm:ml-4 sm:w-auto"
+                  className="text-md relative inline-block w-full whitespace-nowrap rounded-md bg-gray-900 px-4 py-4 text-center font-semibold text-white outline-none transition duration-300 hover:bg-gray-700 focus-visible:ring active:bg-white sm:ml-4 sm:w-auto"
                 >
                   OTA YHTEYTTÄ
                 </a>

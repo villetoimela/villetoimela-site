@@ -9,14 +9,14 @@ export interface AboutProps {
 
 export function About({ imgSrc }: AboutProps) {
   return (
-    <div id="about" className="mx-auto w-full px-11 py-44 ">
+    <div id="about" className="mx-auto w-full overflow-hidden px-11 py-44 ">
       <div className="relative mx-auto max-w-7xl xl:px-0">
         <p className="pb-4 text-xs font-normal italic tracking-widest text-gray-400">
           {" "}
           {"< about >"}{" "}
         </p>
-        <Fade left>
-          <h2 className="font-Syne text-3xl font-extrabold tracking-widest text-gray-100 sm:text-7xl">
+        <Fade right>
+          <h2 className="font-Syne text-3xl font-extrabold tracking-widest text-white sm:text-7xl">
             MINUSTA
           </h2>
         </Fade>
@@ -30,7 +30,7 @@ export function About({ imgSrc }: AboutProps) {
           <div className="relative w-full lg:w-2/3">
             <div className=" overflow-hidden">
               <Fade bottom>
-                <p className="font-Syne text-base font-bold tracking-wider text-gray-100 ">
+                <p className="font-Syne text-base font-bold tracking-wider text-white ">
                   Terve, minä olen tosissaan{" "}
                   <span className="block font-Syne text-red-300 xl:inline">
                     Ville.
@@ -39,12 +39,15 @@ export function About({ imgSrc }: AboutProps) {
                   viestintätekniikan perustutkinto) ovat loppusuoralla ja
                   tarkoitus on valmistua vuoden 2022 loppupuolella. Viime
                   vuosina olen alkanut tositarkoituksella toteuttamaan unelmaani
-                  koodariksi ryhtymisestä, lopetin jopa entisen "leipäduunin"
-                  syyskuussa 2021 syventyäkseni devaamiseen sataprosenttisesti.
-                  Olen tykittäny kymmeniä tuhansia tunteja hc hikoilua pelien
-                  parissa, nyt seuraava tavoite on saada (vähintäänkin) vastaava
-                  lukema mittariin, mutta ohjelmistokehityksen parissa. Ja
-                  nälkähän se vain kasvaa tehdessä!
+                  devaajaksi ryhtymisestä. Lopetin entisen viisi vuotta
+                  kestäneen työsuhteeni syyskuussa 2021 syventyäkseni
+                  devaamiseen sataprosenttisesti. <br /> <br /> Olen tykittäny
+                  kymmeniä tuhansia tunteja hc-hikoilua pelien parissa. Seuraava
+                  tavoite on saada vähintäänkin vastaava lukema mittariin, mutta
+                  ohjelmistokehityksen parissa. Ja nälkä vain kasvaa tehdessä!{" "}
+                  <br /> <br /> Omat vahvuuteni ovat visusti asioiden nopeassa
+                  oppimisessa, ongelmanratkaisutaidoissa sekä tietysti omassa
+                  innostuneessa luonteessani.
                 </p>
               </Fade>
               <Fade right>

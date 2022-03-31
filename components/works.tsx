@@ -7,8 +7,8 @@ export interface WorksProps {}
 
 export function Works({}: WorksProps) {
   return (
-    <div id="works" className=" overflow-hidden">
-      <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
+    <div id="works" className="overflow-hidden ">
+      <p className="mx-auto  max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
         {" "}
         {"< works >"}{" "}
       </p>
@@ -21,24 +21,26 @@ export function Works({}: WorksProps) {
         <WorksItem
           title={"personal portfolio"}
           text={
-            "Oma personal website joka kasattu uudestaan entisen HTML/CSS sivun tieltä. Sivu on tehty myös täysin responsiiviseksi eri ruudun kokoja ajatellen"
+            "Oma personal website, joka on kasattu uudestaan entisen HTML/CSS-sivun tieltä. Sivusto on tehty stackilla, jonka olen löytänyt mieluisaksi käyttää ja jolla työskentely on sulavaa."
           }
-          imgSrc={"/testSCreenshotMaster.png"}
-          imgWidth={1903}
-          imgHeight={7165}
+          imgSrc={"/villetoimelacom-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={7618}
           tag1="React / NextJS / TypeScript / TailwindCSS"
+          link={"https://gitlab.com/villetoimela/villetoimela-site"}
         />
       </Fade>
       <Fade right>
         <WorksItem
-          title={"Crypto-tracker App"}
+          title={"Crypto tracker app"}
           text={
-            "tehty kaikilla mukavilla millä seonb tehty eli stäcki ja jotai tähä pientä"
+            "Yksinkertainen webbiappi kryptovaluuttojen hintojen seurantaa varten. Sivu on tehty rajapintojen opiskelu edellä, eli sivun ulkoasuun ei ole panostettu. Käytetty CoinGecko.com:n julkista API:a datan hankintaan."
           }
-          imgSrc={"/testSCreenshotMaster.png"}
-          imgWidth={1903}
-          imgHeight={7165}
-          tag1="design"
+          imgSrc={"/crypto-tracker-test.png"}
+          imgWidth={1897}
+          imgHeight={10709}
+          tag1="React / NextJS / CSS / API"
+          link={"https://github.com/villetoimela/nextjs-crypto-app"}
         />
       </Fade>
       <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
