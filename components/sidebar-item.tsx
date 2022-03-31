@@ -17,7 +17,7 @@ export function SideBarItem({ title, icon, navTo }: SideBarItemProps) {
           <Image src={icon} width={30} height={30} />
         </Link>
       </div>
-      <p className="z-10 rounded-lg  bg-gray-100 px-2 tracking-widest text-gray-900 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+      <p className="z-10 rounded-lg  bg-white px-2 tracking-widest text-gray-900 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
         {title}
       </p>
     </div>

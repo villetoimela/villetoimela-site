@@ -11,7 +11,7 @@ export interface SideBarProps {}
 export function SideBar(props: SideBarProps) {
   return (
     <Fade left delay={1500}>
-      <div className="center fixed z-50 flex h-screen flex-col justify-center pl-2 font-Syne font-bold text-gray-100">
+      <div className="center fixed z-10 flex h-screen flex-col justify-center pl-2 font-Syne text-sm font-bold text-white">
         <SideBarItem title={"ALKUUN"} icon={"/icon-home.svg"} navTo={"home"} />
         <SideBarItem
           title={"MINUSTA"}

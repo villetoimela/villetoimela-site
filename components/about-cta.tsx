@@ -13,14 +13,14 @@ export function AboutCta(props: AboutCtaProps) {
           <div className="bg-purple-1000 rounded-lg p-6 md:p-0 md:pb-4">
             <Fade bottom delay={200}>
               <h2 className=" text-xl font-bold uppercase tracking-tight text-gray-900 sm:text-5xl ">
-                Webbiprojekti mielessä? <br /> tarvitko fronttidevaajaa
+                Omat nettisivut mielessä? <br /> <br /> Etsitkö fronttidevaajaa
                 projektiisi?
               </h2>
             </Fade>
             <Fade bottom>
-              <p className="text-gray-1 00 mt-5 w-full text-lg font-bold leading-6 md:w-3/4">
+              <p className="mt-5 w-full text-lg font-bold leading-6 tracking-wide text-gray-900 md:w-3/4">
                 Täysin räätälöidyt verkkosivut, yksinkertaisemmat
-                webbiapplikaatiot, UX/UI suunnittelu – projekti tai
+                webbiapplikaatiot, UX/UI-suunnittelu — projekti tai
                 tuntihinnalla
               </p>
             </Fade>
