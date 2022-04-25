@@ -31,7 +31,7 @@ export function Hero({ imgSrc }: HeroProps) {
         </div>
         <Fade bottom delay={1500}>
           <p className="my-4 text-lg tracking-normal text-white">
-            26-vuotias UI/UX-suunnittelija ja front-end web-kehittäjä sekä tuore
+            27-vuotias UI/UX-suunnittelija ja front-end web-kehittäjä sekä tuore
             ja innokas ohjelmistoalan yrittäjä
           </p>
         </Fade>

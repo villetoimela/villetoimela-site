@@ -45,8 +45,8 @@ export function WorksItem({
             quality={100}
           />
         </div>
-        <div className="mx-auto flex cursor-pointer items-center justify-center text-sm italic text-white underline">
-          <Link href={link}>linkki repoon</Link>
+        <div className="mx-auto flex cursor-pointer items-center justify-center text-sm  text-white underline">
+          <Link href={link}>linkki repoon || sivulle</Link>
         </div>
       </div>
     </div>
