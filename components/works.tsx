@@ -19,6 +19,19 @@ export function Works({}: WorksProps) {
       </Fade>
       <Fade left>
         <WorksItem
+          title={"hiisi.digital site"}
+          text={
+            "Hiisi Digital Oy:n verkkosivut. Sivut kasattu kahden henkilön voimin, käyttäen tuttua ja turvallista nextjs, typescript ja tailwindcss stackia. Tämän pohjalla on myös käytetty nx workspacea ja monorepoa, jonka pohjilta seuraavatkin projektit on tarkoitus toteuttaa."
+          }
+          imgSrc={"/hiisi-digital-etusivu.png"}
+          imgWidth={1920}
+          imgHeight={6291}
+          tag1="React / NextJS / TypeScript / TailwindCSS / Nx / API"
+          link={"https://hiisi.digital"}
+        />
+      </Fade>
+      <Fade right>
+        <WorksItem
           title={"personal portfolio"}
           text={
             "Oma personal website, joka on kasattu uudestaan entisen HTML/CSS-sivun tieltä. Sivusto on tehty stackilla, jonka olen löytänyt mieluisaksi käyttää ja jolla työskentely on sulavaa."
@@ -30,7 +43,7 @@ export function Works({}: WorksProps) {
           link={"https://gitlab.com/villetoimela/villetoimela-site"}
         />
       </Fade>
-      <Fade right>
+      <Fade left>
         <WorksItem
           title={"Crypto tracker app"}
           text={
