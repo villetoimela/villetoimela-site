@@ -17,6 +17,21 @@ export function Works({}: WorksProps) {
           PORTFOLIO
         </h1>
       </Fade>
+      <Fade right>
+        <WorksItem
+          title={"kampaamo sivun layoutti"}
+          text={
+            "Valmis layoutti myyntiin esim. parturi-kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Kuvissa käytetty ns. parallax effectiä. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+          }
+          imgSrc={"/hius-site-screnshot.png"}
+          imgWidth={1920}
+          imgHeight={8428}
+          tag1="React / NextJS / TypeScript / TailwindCSS / Nx monorepo "
+          link={
+            "https://templates-hair-salon-lofva2cxx-hiisi-digital.vercel.app/"
+          }
+        />
+      </Fade>
       <Fade left>
         <WorksItem
           title={"hiisi.digital site"}
