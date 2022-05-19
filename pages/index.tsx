@@ -17,6 +17,10 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="jNEc8swtfIrMuWJTlxOsJ_iHSrqkn3-fg5J0Z9EXFcI"
+        />
         <title>villetoimela.com</title>
         <link rel="icon" href="/faviconcat.ico" />
       </Head>
