@@ -13,7 +13,13 @@ export function SideBarItem({ title, icon, navTo }: SideBarItemProps) {
   return (
     <div className="group z-10 mb-4 flex cursor-pointer items-center">
       <div className="scale pr-2 duration-300 group-hover:scale-150  ">
-        <Link activeClass="active" to={navTo} spy={true} smooth={true}>
+        <Link
+          activeClass="active"
+          to={navTo}
+          spy={true}
+          smooth={true}
+          duration={700}
+        >
           <Image src={icon} width={30} height={30} />
         </Link>
       </div>

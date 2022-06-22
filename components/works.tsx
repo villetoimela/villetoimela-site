@@ -19,17 +19,28 @@ export function Works({}: WorksProps) {
       </Fade>
       <Fade right>
         <WorksItem
+          title={"tatuointi-liikkeen layoutti"}
+          text={
+            "Valmis layoutti myyntiin esim. tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+          }
+          imgSrc={"/tattoo-shop-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={8186}
+          tag1="React / NextJS / TypeScript / TailwindCSS / Nx monorepo "
+          link={"https://tattoo-shop.demo.hiisi.digital/"}
+        />
+      </Fade>
+      <Fade left>
+        <WorksItem
           title={"kampaamo sivun layoutti"}
           text={
-            "Valmis layoutti myyntiin esim. parturi-kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Kuvissa käytetty ns. parallax effectiä. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+            "Valmis layoutti myyntiin esim. parturi-kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
           }
           imgSrc={"/hius-site-screnshot.png"}
           imgWidth={1920}
           imgHeight={8428}
           tag1="React / NextJS / TypeScript / TailwindCSS / Nx monorepo "
-          link={
-            "https://templates-hair-salon-lofva2cxx-hiisi-digital.vercel.app/"
-          }
+          link={"https://kampaamo.demo.hiisi.digital/"}
         />
       </Fade>
       <Fade left>
@@ -38,7 +49,7 @@ export function Works({}: WorksProps) {
           text={
             "Hiisi Digital Oy:n verkkosivut. Sivut kasattu kahden henkilön voimin, käyttäen tuttua ja turvallista nextjs, typescript ja tailwindcss stackia. Tämän pohjalla on myös käytetty nx workspacea ja monorepoa, jonka pohjilta seuraavatkin projektit on tarkoitus toteuttaa."
           }
-          imgSrc={"/hiisi-digital-etusivu.png"}
+          imgSrc={"/hiisi-digital-site-screenshot.png"}
           imgWidth={1920}
           imgHeight={6291}
           tag1="React / NextJS / TypeScript / TailwindCSS / Nx / API"
