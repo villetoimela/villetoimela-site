@@ -17,11 +17,11 @@ export function Works({}: WorksProps) {
           PORTFOLIO
         </h1>
       </Fade>
-      <Fade right>
+      <Fade left>
         <WorksItem
-          title={"tatuointi-liikkeen layoutti"}
+          title={"Valmis sivusto tatuointi-liikkeelle"}
           text={
-            "Valmis layoutti myyntiin esim. tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+            "Valmis sivusto myyntiin tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
           }
           imgSrc={"/tattoo-shop-screenshot.png"}
           imgWidth={1920}
@@ -30,11 +30,11 @@ export function Works({}: WorksProps) {
           link={"https://tattoo-shop.demo.hiisi.digital/"}
         />
       </Fade>
-      <Fade left>
+      <Fade right>
         <WorksItem
-          title={"kampaamo sivun layoutti"}
+          title={"Valmis sivusto esim. kampaamolle"}
           text={
-            "Valmis layoutti myyntiin esim. parturi-kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+            "Valmis sivusto myyntiin esim. kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
           }
           imgSrc={"/hius-site-screnshot.png"}
           imgWidth={1920}

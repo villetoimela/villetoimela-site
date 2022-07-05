@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 // @ts-ignore
 import Fade from "react-reveal/Fade"
 
@@ -35,24 +36,37 @@ export function About({ imgSrc }: AboutProps) {
                   <span className="block font-Syne text-red-300 xl:inline">
                     Ville.
                   </span>{" "}
-                  <br /> Ohjelmistokehittäjän opintoni (tieto- ja
-                  viestintätekniikan perustutkinto) ovat loppusuoralla ja
-                  tarkoitus on valmistua vuoden 2022 loppupuolella. Viime
-                  vuosina olen alkanut tositarkoituksella toteuttamaan unelmaani
-                  devaajaksi ryhtymisestä. Lopetin entisen viisi vuotta
-                  kestäneen työsuhteeni syyskuussa 2021 syventyäkseni
-                  devaamiseen sataprosenttisesti. <br /> <br /> Olen tykittäny
-                  kymmeniä tuhansia tunteja hc-hikoilua pelien parissa. Seuraava
-                  tavoite on saada vähintäänkin vastaava lukema mittariin, mutta
-                  ohjelmistokehityksen parissa. Ja nälkä vain kasvaa tehdessä!{" "}
-                  <br /> <br /> Omat vahvuuteni ovat visusti asioiden nopeassa
-                  oppimisessa, ongelmanratkaisutaidoissa sekä tietysti omassa
-                  innostuneessa luonteessani.
+                  <p className="pb-4 pt-4">
+                    {" "}
+                    Ohjelmistokehittäjän opintoni (tieto- ja viestintätekniikan
+                    perustutkinto) ovat loppusuoralla ja tarkoitus on valmistua
+                    vuoden 2022 loppupuolella. Viime vuosina olen alkanut
+                    tositarkoituksella toteuttamaan unelmaani devaajaksi
+                    ryhtymisestä. Lopetin entisen viisi vuotta kestäneen
+                    työsuhteeni syyskuussa 2021 syventyäkseni devaamiseen
+                    sataprosenttisesti.{" "}
+                  </p>{" "}
+                  <p className="pb-4">
+                    Helmikuun alussa perustimmekin kahden miehen voimin
+                    yrityksen, jonka kanssa on saanut tehdä töitä nyt siitä
+                    lähtien. Käy kahlaamassa{" "}
+                    <Link href={"https://www.hiisi.digital/"}>
+                      <a className="text-red-300">Hiisi Digital</a>
+                    </Link>
+                    in sivut jos kinostelee!
+                  </p>{" "}
+                  <p>
+                    {" "}
+                    Olen tykittäny kymmeniä tuhansia tunteja hc-hikoilua pelien
+                    parissa. Seuraava tavoite on saada vähintäänkin vastaava
+                    lukema mittariin, mutta ohjelmistokehityksen parissa. Ja
+                    nälkä vain kasvaa tehdessä!
+                  </p>
                 </p>
               </Fade>
               <Fade right>
                 <p className="mt-12 font-Syne text-sm font-bold uppercase italic text-red-300">
-                  " It’s not a bug – it's an undocumented feature. "
+                  " Software developer or a professional Google searcher? "
                 </p>
               </Fade>
             </div>
