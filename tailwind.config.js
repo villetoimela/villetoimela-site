@@ -56,7 +56,7 @@ module.exports = {
               transform: 'translatey(0px)'
           },
           '50%': {
-              transform: 'translatey(-40px)'
+              transform: 'translatey(-30px)'
                
           },
           '100%': {

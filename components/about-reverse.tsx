@@ -23,19 +23,26 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
             <Fade bottom>
               <div>
                 <p className="font-Syne text-base font-bold tracking-wider text-white ">
-                  Opintojani edeltänyt itseoppimis- ja harrastuneisuusvaihe on
-                  keskittynyt pääosin fronttipuoleen, mutta etenkin
-                  ohjelmistokehittäjän opinnoissa olen saanut paljon merkittävää
-                  näkökulmaa myös konepellin alle. Vahvimmat työkaluni ovat
-                  perinteiset HTML, CSS sekä JS, mutta viime aikoina on myös
-                  tullut omaksuttua paljon C#:ia ja dotnetin maailmaa,
-                  mukaanlukien OOP, MVC ym. paradigmat. Tällä hetkellä eniten
-                  kiinnostaa web-ohjelmointi ja modernit komponenttipohjaiset JS
-                  framikset, joista erityisesti react ja vue. Intoa ja
-                  mielenkiintoa löytyy tietysti laajasti kaikkiin muihinkin
-                  moderneihin frameworkkeihin ja teknologioihin! Viimeisimpinä
-                  työkaluina onkin pyörinyt React (Nextillä) ja TypeScript sekä
-                  TailwindCSS, johon olenkin rakastunut täysin. <br />{" "}
+                  <p className="pb-4">
+                    {" "}
+                    Opintojani edeltänyt itseoppimis- ja harrastuneisuusvaihe on
+                    keskittynyt pääosin fronttipuoleen, mutta etenkin
+                    ohjelmistokehittäjän opinnoissa olen saanut paljon
+                    merkittävää näkökulmaa myös konepellin alle. Vahvimmat
+                    työkaluni ovat perinteiset HTML (JSX), CSS (TailwindCSS)
+                    sekä JS (NextJS), mutta viime aikoina on myös tullut
+                    omaksuttua paljon C#:ia ja dotnetin maailmaa, mukaanlukien
+                    OOP, MVC ym. paradigmat.{" "}
+                  </p>{" "}
+                  <p className="pb-4">
+                    Tällä hetkellä eniten kiinnostaa web-ohjelmointi ja modernit
+                    komponenttipohjaiset JS framikset, joista erityisesti react
+                    ja vue. Intoa ja mielenkiintoa löytyy tietysti laajasti
+                    kaikkiin muihinkin moderneihin frameworkkeihin ja
+                    teknologioihin! Viimeisimpinä työkaluina onkin pyörinyt
+                    NextJS ja TypeScript sekä TailwindCSS, johon olenkin
+                    rakastunut täysin.
+                  </p>{" "}
                   Versionhallinnan puolelta git on tietysti tuttu kaveri, samoin
                   isoimmat forget workfloweineen (PR:t, issuet ym).
                 </p>
