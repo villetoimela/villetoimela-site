@@ -17,6 +17,19 @@ export function Works({}: WorksProps) {
           PORTFOLIO
         </h1>
       </Fade>
+      <Fade right>
+        <WorksItem
+          title={"EliJuomapeli"}
+          text={
+            "Mielenkiinto heräsi testata PWA:n voimaa, mutta ideat oli vähän hukassa. Mietin mitä käytännöllistä sitä keksisi värkätä, ja festareiden ajan aloittelun innoittamana juomapelihän se sieltä tupsahti. Linkki peliin löytyy kuvan alta, repo löytyy gitlabista: villetoimela."
+          }
+          imgSrc={"/elijuomapeli-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={947}
+          tag1="React / JavaScript / TailwindCSS / PWA "
+          link={"https://www.elijuomapeli.com/"}
+        />
+      </Fade>
       <Fade left>
         <WorksItem
           title={"Valmis sivusto tatuointi-liikkeelle"}
