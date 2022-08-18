@@ -18,7 +18,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>villetoimela.com</title>
-        <link rel="icon" href="/faviconcat.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Bg />
       <SideBar />
