@@ -24,7 +24,7 @@ export function WorksItem({
   return (
     <div className="mb-10 flex w-full flex-col bg-black bg-opacity-30 font-Syne md:flex-row">
       <div className="flex h-full w-full flex-col justify-center p-10 md:w-1/2 lg:p-16 xl:p-24">
-        <h2 className="max-w-lg text-2xl font-extrabold uppercase text-white lg:text-4xl xl:text-5xl">
+        <h2 className="max-w-lg text-2xl font-extrabold uppercase text-white lg:text-3xl xl:text-4xl">
           {title}
         </h2>
         <p className="text-md mt-5 max-w-lg font-bold text-gray-300 ">{text}</p>
@@ -46,7 +46,7 @@ export function WorksItem({
           />
         </div>
         <div className="mx-auto mt-5 flex cursor-pointer items-center justify-center text-sm  text-white underline underline-offset-4">
-          <Link href={link}>linkki demoon || sivulle</Link>
+          <Link href={link}>linkki repoon || sivulle</Link>
         </div>
       </div>
     </div>
