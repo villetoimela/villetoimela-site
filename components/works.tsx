@@ -32,9 +32,35 @@ export function Works({}: WorksProps) {
       </Fade>
       <Fade left>
         <WorksItem
+          title={"Tunturiretki.fi verkkosivut"}
+          text={
+            "Jalkahoitola Tunturiretken verkkosivut asiakkaalle tilaustyönä alusta loppuun. Vastasin itse projektissa front-end puolesta, mutta pääsin myös toteuttamaan esimerkiksi asiakkaan valitseman ajanvarausjärjestelmän integraation sivulle. Tein ensin raakaversion asiakkaalle ulkoasusta oman inspiraation mukaan, jonka jälkeen sivua hiottiin asiakkaan mieltymyksien mukaiseksi blokki kerrallaan."
+          }
+          imgSrc={"/tunturiretki-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={12717}
+          tag1="NextJS / TypeScript / TailwindCSS / Nx / API / Intergration"
+          link={"https://www.tunturiretki.fi/"}
+        />
+      </Fade>
+      <Fade right>
+        <WorksItem
+          title={"Public API list appi"}
+          text={
+            "Pieni webbisovellus johon haetaan kokoelma julkisia rajapintoja, käyttäen api.publicapis.org rajapintaa. Sovelluksessa pystyy etsimään haluamaansa APIa nimen perusteella hakukentästä. Lisätty myös mahdollisuus filtteröidä haettavia rajapintoja kategorian perusteella."
+          }
+          imgSrc={"/Public-APIs-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={2266}
+          tag1="React / JavaScript / TailwindCSS / API / Axios"
+          link={"https://gitlab.com/villetoimela/public-api-list"}
+        />
+      </Fade>
+      <Fade left>
+        <WorksItem
           title={"Valmis sivusto tatuointi-liikkeelle"}
           text={
-            "Valmis sivusto myyntiin tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+            "Valmis sivusto myyntiin tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. tatuointiliikkeen sähköpostiin. demo-linkki kuvan alla. "
           }
           imgSrc={"/tattoo-shop-screenshot.png"}
           imgWidth={1920}

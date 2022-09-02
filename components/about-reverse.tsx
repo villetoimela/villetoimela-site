@@ -30,7 +30,7 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                     ohjelmistokehittäjän opinnoissa olen saanut paljon
                     merkittävää näkökulmaa myös konepellin alle. Vahvimmat
                     työkaluni ovat perinteiset HTML (JSX), CSS (TailwindCSS)
-                    sekä JS (NextJS), mutta viime aikoina on myös tullut
+                    sekä JS (React), mutta viime aikoina on myös tullut
                     omaksuttua paljon C#:ia ja dotnetin maailmaa, mukaanlukien
                     OOP, MVC ym. paradigmat.{" "}
                   </p>{" "}
