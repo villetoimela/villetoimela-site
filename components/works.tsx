@@ -119,7 +119,7 @@ export function Works({}: WorksProps) {
           imgWidth={1897}
           imgHeight={10709}
           tag1="React / NextJS / CSS / API"
-          link={"https://github.com/villetoimela/nextjs-crypto-app"}
+          link={"https://gitlab.com/villetoimela/nextjs-crypto-app"}
         />
       </Fade>
       <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">

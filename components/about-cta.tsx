@@ -20,8 +20,7 @@ export function AboutCta(props: AboutCtaProps) {
             <Fade bottom>
               <p className="mt-5 w-full text-lg font-bold leading-6 tracking-wide text-gray-900 md:w-3/4">
                 Täysin räätälöidyt verkkosivut, yksinkertaisemmat
-                webbiapplikaatiot, UX/UI-suunnittelu — projekti tai
-                tuntihinnalla
+                webbiapplikaatiot — projekti tai tuntihinnalla!
               </p>
             </Fade>
           </div>
