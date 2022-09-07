@@ -37,13 +37,7 @@ export function WorksItem({
       </div>
       <div className=" w-full self-center md:w-1/2 ">
         <div className="relative h-64 overflow-y-auto p-4 duration-300 scrollbar-hide hover:scale-110 sm:h-96">
-          <Image
-            src={imgSrc}
-            width={imgWidth}
-            height={imgHeight}
-            layout="intrinsic"
-            quality={100}
-          />
+          <Image src={imgSrc} width={imgWidth} height={imgHeight} />
         </div>
         <div className="mx-auto mt-5 flex items-center justify-center gap-5 text-sm text-white">
           <Link href={link}>Repo || Live</Link>
