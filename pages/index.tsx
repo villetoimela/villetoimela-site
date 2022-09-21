@@ -18,6 +18,8 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>villetoimela.com</title>
+        <meta name="Ville Toimela - Ohjelmistokehittäjä" 
+        content="Front-end / web-kehittäjä sekä tuore ja innokas ohjelmistoalan yrittäjä - ville.toimela@hiisi.digital"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Bg />
