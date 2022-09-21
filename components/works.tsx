@@ -24,9 +24,9 @@ export function Works({}: WorksProps) {
           text={
             "Jalkahoitola Tunturiretken verkkosivut asiakkaalle tilaustyönä alusta loppuun. Vastasin itse projektissa front-end puolesta, mutta pääsin myös toteuttamaan esimerkiksi asiakkaan valitseman ajanvarausjärjestelmän integraation sivulle. Tein ensin raakaversion asiakkaalle ulkoasusta oman inspiraation mukaan, jonka jälkeen sivua hiottiin asiakkaan mieltymyksien mukaiseksi blokki kerrallaan."
           }
-          imgSrc={"/tunturiretki-screenshot.png"}
-          imgWidth={1920}
-          imgHeight={12717}
+          imgSrc={"/tunturiretki-screenshot-pienempi.png"}
+          imgWidth={922}
+          imgHeight={6164}
           tag1="NextJS / TypeScript / TailwindCSS / Nx / API / Intergration"
           link={"https://www.tunturiretki.fi/"}
         />
