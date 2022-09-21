@@ -7,7 +7,7 @@ export interface WorksProps {}
 
 export function Works({}: WorksProps) {
   return (
-    <div id="works" className="overflow-hidden ">
+    <div id="works" className="overflow-hidden max-w-7xl  mx-auto ">
       <p className="mx-auto  max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
         {" "}
         {"< works >"}{" "}
