@@ -26,7 +26,7 @@ export function Works({}: WorksProps) {
           }
           imgSrc={"/tunturiretki-screenshot.png"}
           imgWidth={1920}
-          imgHeight={9709}
+          imgHeight={12717}
           tag1="NextJS / TypeScript / TailwindCSS / Nx / API / Intergration"
           link={"https://www.tunturiretki.fi/"}
         />
