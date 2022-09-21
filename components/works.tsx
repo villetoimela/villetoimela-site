@@ -17,9 +17,8 @@ export function Works({}: WorksProps) {
           PORTFOLIO
         </h1>
       </Fade>
-
-      <Fade right>
-        <WorksItem
+      <Fade left>
+      <WorksItem
           title={"Tunturiretki.fi verkkosivut"}
           text={
             "Jalkahoitola Tunturiretken verkkosivut asiakkaalle tilaustyönä alusta loppuun. Vastasin itse projektissa front-end puolesta, mutta pääsin myös toteuttamaan esimerkiksi asiakkaan valitseman ajanvarausjärjestelmän integraation sivulle. Tein ensin raakaversion asiakkaalle ulkoasusta oman inspiraation mukaan, jonka jälkeen sivua hiottiin asiakkaan mieltymyksien mukaiseksi blokki kerrallaan."
@@ -29,36 +28,10 @@ export function Works({}: WorksProps) {
           imgHeight={6164}
           tag1="NextJS / TypeScript / TailwindCSS / Nx / API / Intergration"
           link={"https://www.tunturiretki.fi/"}
-        />
-      </Fade>
-      <Fade left>
-        <WorksItem
-          title={"Public API list appi"}
-          text={
-            "Pieni webbisovellus johon haetaan kokoelma julkisia rajapintoja, käyttäen api.publicapis.org rajapintaa. Sovelluksessa pystyy etsimään haluamaansa APIa nimen perusteella hakukentästä. Lisätty myös mahdollisuus filtteröidä haettavia rajapintoja kategorian perusteella."
-          }
-          imgSrc={"/Public-APIs-screenshot.png"}
-          imgWidth={1920}
-          imgHeight={2266}
-          tag1="React / JavaScript / TailwindCSS / API / Axios"
-          link={"https://gitlab.com/villetoimela/public-api-list"}
-        />
+        />    
       </Fade>
       <Fade right>
-        <WorksItem
-          title={"EliJuomapeli"}
-          text={
-            "Mielenkiinto heräsi testata PWA:n voimaa, mutta ideat oli vähän hukassa. Mietin mitä käytännöllistä sitä keksisi värkätä, ja festareiden ajan aloittelun innoittamana juomapelihän se sieltä tupsahti. Linkki peliin löytyy kuvan alta, repo löytyy gitlabista: villetoimela."
-          }
-          imgSrc={"/elijuomapeli-screenshot.png"}
-          imgWidth={1920}
-          imgHeight={947}
-          tag1="React / JavaScript / TailwindCSS / PWA "
-          link={"https://www.elijuomapeli.com/"}
-        />
-      </Fade>
-      <Fade left>
-        <WorksItem
+      <WorksItem
           title={"Valmis sivusto tatuointi-liikkeelle"}
           text={
             "Valmis sivusto myyntiin tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. tatuointiliikkeen sähköpostiin. demo-linkki kuvan alla. "
@@ -70,8 +43,8 @@ export function Works({}: WorksProps) {
           link={"https://tattoo-shop.demo.hiisi.digital/"}
         />
       </Fade>
-      <Fade right>
-        <WorksItem
+      <Fade left>
+      <WorksItem
           title={"Valmis sivusto esim. kampaamolle"}
           text={
             "Valmis sivusto myyntiin esim. kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
@@ -83,8 +56,8 @@ export function Works({}: WorksProps) {
           link={"https://kampaamo.demo.hiisi.digital/"}
         />
       </Fade>
-      <Fade left>
-        <WorksItem
+      <Fade right>
+      <WorksItem
           title={"hiisi.digital site"}
           text={
             "Hiisi Digital Oy:n verkkosivut. Sivut kasattu kahden henkilön voimin, käyttäen tuttua ja turvallista nextjs, typescript ja tailwindcss stackia. Tämän pohjalla on myös käytetty nx workspacea ja monorepoa, jonka pohjilta seuraavatkin projektit on tarkoitus toteuttaa."
@@ -96,8 +69,8 @@ export function Works({}: WorksProps) {
           link={"https://hiisi.digital"}
         />
       </Fade>
-      <Fade right>
-        <WorksItem
+      <Fade left>
+      <WorksItem
           title={"personal portfolio"}
           text={
             "Oma personal website, joka on kasattu uudestaan entisen HTML/CSS-sivun tieltä. Sivusto on tehty stackilla, jonka olen löytänyt mieluisaksi käyttää ja jolla työskentely on sulavaa."
@@ -107,6 +80,45 @@ export function Works({}: WorksProps) {
           imgHeight={7618}
           tag1="React / NextJS / TypeScript / TailwindCSS"
           link={"https://gitlab.com/villetoimela/villetoimela-site"}
+        />
+      </Fade>
+      <Fade right>
+      <WorksItem
+          title={"ez-math-game"}
+          text={
+            "Ideana oli tehdä matematiikan harjoitteluun tarkoitettu pieni webbiappi tyttären käyttöön. Tässä projektissa sai käyttää react hookkeja ja kirjoittaa javascriptiä enemmän kuin alunperin ajattelin. Projektissa oli harvinaisen paljon käytössä Google ja Stack Overflow ja homma alkoikin nopeasti täyttyä eri sivustojen copypastella ja siitä tuli sekamelska, mutta loppujaan homman sai kasaan ja toimimaan."
+          }
+          imgSrc={"/ez-math-game-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={947}
+          tag1="React / JavaScript / TailwindCSS"
+          link={"https://ez-math-game.netlify.app/"}
+        />
+      </Fade>
+      <Fade left>
+      <WorksItem
+          title={"EliJuomapeli"}
+          text={
+            "Mielenkiinto heräsi testata PWA:n voimaa, mutta ideat oli vähän hukassa. Mietin mitä käytännöllistä sitä keksisi värkätä, ja festareiden ajan aloittelun innoittamana juomapelihän se sieltä tupsahti. Linkki peliin löytyy kuvan alta, repo löytyy gitlabista: villetoimela."
+          }
+          imgSrc={"/elijuomapeli-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={947}
+          tag1="React / JavaScript / TailwindCSS / PWA "
+          link={"https://www.elijuomapeli.com/"}
+        />
+      </Fade>
+      <Fade right>
+      <WorksItem
+          title={"Public API list appi"}
+          text={
+            "Pieni webbisovellus johon haetaan kokoelma julkisia rajapintoja, käyttäen api.publicapis.org rajapintaa. Sovelluksessa pystyy etsimään haluamaansa APIa nimen perusteella hakukentästä. Lisätty myös mahdollisuus filtteröidä haettavia rajapintoja kategorian perusteella."
+          }
+          imgSrc={"/Public-APIs-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={2266}
+          tag1="React / JavaScript / TailwindCSS / API / Axios"
+          link={"https://gitlab.com/villetoimela/public-api-list"}
         />
       </Fade>
       <Fade left>
