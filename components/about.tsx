@@ -38,9 +38,7 @@ export function About({ imgSrc }: AboutProps) {
                   </span>{" "}
                   <p className="pb-4 pt-4">
                     {" "}
-                    Ohjelmistokehittäjän opintoni (tieto- ja viestintätekniikan
-                    perustutkinto) ovat loppusuoralla ja tarkoitus on valmistua
-                    vuoden 2022 loppupuolella. Viime vuosina olen alkanut
+                    Viime vuosina olen alkanut
                     tositarkoituksella toteuttamaan unelmaani devaajaksi
                     ryhtymisestä. Lopetin entisen viisi vuotta kestäneen
                     työsuhteeni syyskuussa 2021 syventyäkseni devaamiseen
