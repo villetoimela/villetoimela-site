@@ -17,6 +17,19 @@ export function Works({}: WorksProps) {
           PORTFOLIO
         </h1>
       </Fade>
+      <Fade right>
+      <WorksItem
+          title={"WIP: Valmis sivusto esim. kissakahvilalle"}
+          text={
+            "Valmis sivusto myyntiin esimerkiksi kissakahvilalle. Templatesta löytyy useampi visuaalisesti moderni sivu. Tämän templaten kanssa tuli vähän hassuteltua ja kokeiltua kaikenlaisia uusia pieniä juttuja tyylittelyssä. Koko frontend on yhden miehen sähläys. Live preview linkki kuvan alla. WORK IN PROGRESS"
+          }
+          imgSrc={"/cat-cafe-screenshot.png"}
+          imgWidth={1920}
+          imgHeight={8636}
+          tag1="NextJS / JavaScript / TailwindCSS"
+          link={"https://templates-cat-cafe.netlify.app/"}
+        />    
+      </Fade>
       <Fade left>
       <WorksItem
           title={"Tunturiretki.fi verkkosivut"}
@@ -34,7 +47,7 @@ export function Works({}: WorksProps) {
       <WorksItem
           title={"Valmis sivusto tatuointi-liikkeelle"}
           text={
-            "Valmis sivusto myyntiin tatuointiliikkeelle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. tatuointiliikkeen sähköpostiin. demo-linkki kuvan alla. "
+            "Valmis sivusto myyntiin esim. tatuointiliikkeelle. Template on moderni ns. onepager ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -kohdasta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. tatuointiliikkeen sähköpostiin. Koko frontend on yhden miehen sähläys. Live preview linkki kuvan alla. "
           }
           imgSrc={"/tattoo-shop-screenshot.png"}
           imgWidth={1920}
@@ -47,7 +60,7 @@ export function Works({}: WorksProps) {
       <WorksItem
           title={"Valmis sivusto esim. kampaamolle"}
           text={
-            "Valmis sivusto myyntiin esim. kampaamolle. Layoutista löytyy useampi sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. demo-linkki kuvan alla. "
+            "Valmis sivusto myyntiin esim. kampaamolle. Templatesta löytyy useampi visuaalisesti moderni sivu, ja mahdollisuus esimerkiksi lisätä oma instagram tai facebook feedi ajankohtaista osioon. Ota yhteyttä -pagelta löytyy myös formi jonka kautta saa kätevästi lähetettyä viestin esim. kampaamon sähköpostiin. Koko frontend on yhden miehen sähläys. Live preview linkki kuvan alla. "
           }
           imgSrc={"/hius-site-screnshot.png"}
           imgWidth={1920}
