@@ -20,34 +20,55 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
         <div className="mt-4 border border-red-300 sm:mb-20"></div>
         <div className="flex flex-col items-center pt-10 lg:flex-row">
           <div className="relative w-full lg:w-2/3">
-            <Fade bottom>
+            
               <div>
                 <p className="font-Syne text-base font-bold tracking-wider text-white ">
+                <Fade bottom>
                   <p className="pb-4">
                     {" "}
                     Opintojani edeltänyt itseoppimis- ja harrastuneisuusvaihe on
                     keskittynyt pääosin fronttipuoleen, mutta etenkin
                     ohjelmistokehittäjän opinnoissa olen saanut paljon
-                    merkittävää näkökulmaa myös konepellin alle. Vahvimmat
-                    työkaluni ovat perinteiset HTML (JSX), CSS (TailwindCSS)
-                    sekä JS (React), mutta viime aikoina on myös tullut
-                    omaksuttua paljon C#:ia ja dotnetin maailmaa, mukaanlukien
-                    OOP, MVC ym. paradigmat.{" "}
+                    merkittävää näkökulmaa myös konepellin alle. 
+                    Itseltäni löytyy osaamista toteuttaa webbisovelluksia 
+                    esimerkiksi Reactia käyttäen, varsinkin Nextjs, TailwindCSS, 
+                    JavaScript/TypeScript stackilla. Konstikkaammatkin hommat, 
+                    sekä pulmat varmasti alkavat ratkeamaan myös jo kertyneillä 
+                    Google ja Stack Overflow -kahlaustaidoilla! Viime 
+                    aikoina on myös tullut omaksuttua paljon C#:ia ja dotnetin 
+                    maailmaa, mukaanlukien OOP, MVC ym. paradigmat.{" "}
                   </p>{" "}
+                  </Fade>
+                  <Fade bottom>
                   <p className="pb-4">
                     Tällä hetkellä eniten kiinnostaa web-ohjelmointi ja modernit
                     komponenttipohjaiset JS framikset, joista erityisesti react
                     ja vue. Intoa ja mielenkiintoa löytyy tietysti laajasti
                     kaikkiin muihinkin moderneihin frameworkkeihin ja
-                    teknologioihin! Viimeisimpinä työkaluina onkin pyörinyt
-                    NextJS ja TypeScript sekä TailwindCSS, johon olenkin
-                    rakastunut täysin.
+                    teknologioihin!
                   </p>{" "}
+                  </Fade>
+                  <Fade bottom>
+                  <p className="pb-4">
+                  Tulevaisuutta ajatellen suunta alalla on vielä auki, 
+                  vaikka suurimmaksi osaksi taidot tällä hetkellä löytyykin 
+                  front-end puolelta. Full-stack tekeminen kiinnostaa ottaa 
+                  haltuun jatkossa, mutta katson järkevämmäksi hallita toisen 
+                  puolen ensin, ja keskittyä pellin alle tarkemmin sitten 
+                  myöhemmässä vaiheessa. UX/UI suunnittelu kiinnostaa yhtä lailla 
+                  kuin käyttöliittymän itse koodaaminen, eli designerinkin hommat 
+                  voisi olla yksi mahdollinen suunta tulevaisuudessa.
+                  </p>{" "}
+                  </Fade>
+                  <Fade bottom>
+                  <p className="pb-4">
                   Versionhallinnan puolelta git on tietysti tuttu kaveri, samoin
                   isoimmat forget workfloweineen (PR:t, issuet ym).
+                  </p>
+                  </Fade>
                 </p>
               </div>
-            </Fade>
+            
             <Fade bottom>
               <div className="z-50 flex items-center justify-around gap-4 pt-10 lg:justify-start">
                 <SocialIconItem

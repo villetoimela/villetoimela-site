@@ -30,20 +30,32 @@ export function About({ imgSrc }: AboutProps) {
           </div>
           <div className="relative w-full lg:w-2/3">
             <div className=" overflow-hidden">
-              <Fade bottom>
+              
                 <p className="font-Syne text-base font-bold tracking-wider text-white ">
-                  Terve, minä olen tosissaan{" "}
-                  <span className="block font-Syne text-red-300 xl:inline">
-                    Ville.
-                  </span>{" "}
+                  Tervehdys!
+                  <Fade bottom>
                   <p className="pb-4 pt-4">
                     {" "}
                     Viime vuosina olen alkanut
                     tositarkoituksella toteuttamaan unelmaani devaajaksi
-                    ryhtymisestä. Lopetin entisen viisi vuotta kestäneen
-                    työsuhteeni syyskuussa 2021 syventyäkseni devaamiseen
-                    sataprosenttisesti.{" "}
+                    ryhtymisestä.
                   </p>{" "}
+                  </Fade>
+                  <Fade bottom>
+                  <p className="pb-4">
+                    {" "}
+                    Omaan valtavan määrän intoa, motivaatiota 
+                    ja kiinnostusta ohjelmistokehitystä kohtaan, 
+                    sekä nimenomaan halua kehittyä alan huippuosaajaksi. 
+                    Vaikka ns. työkokemusta alalta ei vielä löydykään useita vuosia, 
+                    niin omia koodailuja sekä oman firman kautta tehtyjä projekteja 
+                    löytyy jo mukava määrä. Ensimmäiset projektini / GitHub repot 
+                    löytyykin jo yli kahden vuoden takaa. Lopetin entisen viisi 
+                    vuotta kestäneen työsuhteeni syyskuussa 2021 syventyäkseni 
+                    devaamiseen sataprosenttisesti.{" "}
+                  </p>{" "}
+                  </Fade>
+                  <Fade bottom>
                   <p className="pb-4">
                     Helmikuun alussa perustimmekin kahden miehen voimin
                     yrityksen, jonka kanssa on saanut tehdä töitä nyt siitä
@@ -53,6 +65,8 @@ export function About({ imgSrc }: AboutProps) {
                     </Link>
                     in sivut jos kinostelee!
                   </p>{" "}
+                  </Fade>
+                  <Fade bottom>
                   <p>
                     {" "}
                     Olen tykittäny kymmeniä tuhansia tunteja hc-hikoilua pelien
@@ -60,8 +74,9 @@ export function About({ imgSrc }: AboutProps) {
                     lukema mittariin, mutta ohjelmistokehityksen parissa. Ja
                     nälkä vain kasvaa tehdessä!
                   </p>
+                  </Fade>
                 </p>
-              </Fade>
+              
               <Fade right>
                 <p className="mt-12 font-Syne text-sm font-bold uppercase italic text-red-300">
                   " Software developer or a professional Google searcher? "
