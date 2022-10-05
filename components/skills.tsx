@@ -63,7 +63,7 @@ export function Skills(props: SkillsProps) {
           <div className="z-50 p-5">
             <SkillsItem imgSrc={"/skills-yarn.svg"} text={"Yarn"} />{" "}
           </div>
-          <SkillsItem imgSrc={"/skills-postcss.svg"} text={"PostCSS"} />
+          <SkillsItem imgSrc={"/skills-api.svg"} text={"API"} />
           <div className="z-50 p-5">
             <SkillsItem imgSrc={"/skills-npm.svg"} text={"npm"} />{" "}
           </div>
