@@ -13,7 +13,7 @@ export function AboutCta(props: AboutCtaProps) {
           <div className="bg-purple-1000 rounded-lg p-6 md:p-0 md:pb-4">
             <Fade left delay={200}>
               <h2 className=" text-xl font-bold uppercase tracking-tight text-gray-900 sm:text-5xl ">
-                Omat nettisivut mielessä? <br /> <br /> Etsitkö fronttidevaajaa
+                Omat verkkosivut mielessä? <br /> <br /> Etsitkö fronttidevaajaa
                 projektiisi?
               </h2>
             </Fade>
