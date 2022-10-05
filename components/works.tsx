@@ -19,14 +19,14 @@ export function Works({}: WorksProps) {
       </Fade>
       <Fade right>
       <WorksItem
-          title={"WIP: Valmis sivusto esim. kissakahvilalle"}
+          title={"Valmis sivusto esim. kissakahvilalle"}
           text={
-            "Valmis sivusto myyntiin esimerkiksi kissakahvilalle. Templatesta löytyy useampi visuaalisesti moderni sivu. Tämän templaten kanssa tuli vähän hassuteltua ja kokeiltua kaikenlaisia uusia pieniä juttuja tyylittelyssä. Koko frontend on yhden miehen sähläys. Live preview linkki kuvan alla. WORK IN PROGRESS"
+            "Valmis sivusto myyntiin esimerkiksi kissakahvilalle. Templatesta löytyy useampi visuaalisesti moderni sivu. Tämän templaten kanssa tuli vähän hassuteltua ja kokeiltua kaikenlaisia uusia pieniä juttuja tyylittelyssä. Koko frontend on yhden miehen sähläys. Lisäsin sivulle myös yhteydenottolomakkeen käyttäen sendgridin rajapintaa. Menu sivulla käytetty hyödyksi headlessui librarya. "
           }
-          imgSrc={"/cat-cafe-screenshot.png"}
-          imgWidth={1920}
-          imgHeight={8636}
-          tag1="NextJS / JavaScript / TailwindCSS"
+          imgSrc={"/katti-cafe-screenshot.png"}
+          imgWidth={1152}
+          imgHeight={4642}
+          tag1="NextJS / JavaScript / TailwindCSS / SendGrid API /"
           link={"https://templates-cat-cafe.netlify.app/"}
         />    
       </Fade>
