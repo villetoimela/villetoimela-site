@@ -7,7 +7,7 @@ export interface LoadingScreenProps {}
 
 export function LoadingScreen({}: LoadingScreenProps) {
   return (
-    <div className=" mx-auto flex h-screen w-screen flex-col items-center justify-center bg-black opacity-95">
+    <div className=" mx-auto flex h-screen w-screen flex-col items-center justify-center bg-gradient-to-tr from-black to-gray-900 opacity-95">
       <div className="flex animate-pulse">
         <div className="flex items-center justify-center ">
           <div className="flex items-center justify-center ">
