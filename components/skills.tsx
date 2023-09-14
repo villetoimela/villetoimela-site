@@ -1,7 +1,6 @@
 import SkillsItem from "./skills-item"
 import Image from "next/image"
-// @ts-ignore
-import Fade from "react-reveal/Fade"
+
 
 /* eslint-disable-next-line */
 export interface SkillsProps {}
@@ -14,17 +13,17 @@ export function Skills(props: SkillsProps) {
         {"< skills >"}{" "}
       </p>
       <div className="z-50 mx-auto text-center lg:max-w-xl">
-        <Fade bottom>
+        
           <p className="text-lg font-extrabold uppercase tracking-wide text-white sm:text-4xl">
             Tuttuja teknologioita
           </p>
-        </Fade>
+        
         <div className="z-50 pt-4">
           <Image src={"/arrow-down.svg"} width={70} height={70} />
         </div>
       </div>
       <div className="z-50 mx-auto grid grid-cols-3 gap-5 text-center md:grid-cols-5 lg:max-w-screen-sm">
-        <Fade bottom>
+        
           <div className=" z-50 p-5">
             <SkillsItem imgSrc={"/skills-tailwind.svg"} text={"TailwindCSS"} />{" "}
           </div>
@@ -71,7 +70,7 @@ export function Skills(props: SkillsProps) {
             imgSrc={"/skills-responsive.svg"}
             text={"Responsive design"}
           />
-        </Fade>
+      
       </div>
       <p className="mx-auto max-w-7xl pt-4 pb-4 text-xs font-normal italic tracking-widest text-gray-400">
         {" "}

@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { SocialIconItem } from "./social-icon-item"
-// @ts-ignore
-import Fade from "react-reveal/Fade"
+
 
 /* eslint-disable-next-line */
 export interface AboutReverseProps {
@@ -12,18 +11,18 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
   return (
     <div className="mx-auto w-full px-11 py-44 ">
       <div className="relative mx-auto max-w-7xl xl:px-0">
-        <Fade left>
+        
           <h2 className="font-Syne text-3xl font-extrabold tracking-widest text-white sm:text-7xl">
             LISÄÄ MINUSTA
           </h2>
-        </Fade>
+        
         <div className="mt-4 border border-red-300 sm:mb-20"></div>
         <div className="flex flex-col items-center pt-10 lg:flex-row">
           <div className="relative w-full lg:w-2/3">
             
               <div>
                 <p className="font-Syne text-base font-bold tracking-wider text-white ">
-                <Fade bottom>
+                
                   <p className="pb-4">
                     {" "}
                     Opintojani edeltänyt itseoppimis- ja harrastuneisuusvaihe on
@@ -38,8 +37,7 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                     aikoina on myös tullut omaksuttua paljon C#:ia ja dotnetin 
                     maailmaa, mukaanlukien OOP, MVC ym. paradigmat.{" "}
                   </p>{" "}
-                  </Fade>
-                  <Fade bottom>
+                  
                   <p className="pb-4">
                     Tällä hetkellä eniten kiinnostaa web-ohjelmointi ja modernit
                     komponenttipohjaiset JS framikset, joista erityisesti react
@@ -47,8 +45,7 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                     kaikkiin muihinkin moderneihin frameworkkeihin ja
                     teknologioihin!
                   </p>{" "}
-                  </Fade>
-                  <Fade bottom>
+                  
                   <p className="pb-4">
                   Tulevaisuutta ajatellen suunta alalla on vielä auki, 
                   vaikka suurimmaksi osaksi taidot tällä hetkellä löytyykin 
@@ -59,17 +56,16 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                   kuin käyttöliittymän itse koodaaminen, eli designerinkin hommat 
                   voisi olla yksi mahdollinen suunta tulevaisuudessa.
                   </p>{" "}
-                  </Fade>
-                  <Fade bottom>
+                  
                   <p className="pb-4">
                   Versionhallinnan puolelta git on tietysti tuttu kaveri, samoin
                   isoimmat forget workfloweineen (PR:t, issuet ym).
                   </p>
-                  </Fade>
+                  
                 </p>
               </div>
             
-            <Fade bottom>
+            
               <div className="z-50 flex items-center justify-around gap-4 pt-10 lg:justify-start">
                 <SocialIconItem
                   imgSrc={"/icon-instagram.svg"}
@@ -98,13 +94,13 @@ export function AboutReverse({ imgSrc }: AboutReverseProps) {
                   linkUrl={"https://wa.me/358405137883"}
                 />
               </div>
-            </Fade>
+            
             <div className="mt-4 border border-white sm:mb-20"></div>
           </div>
           <div className="mt-16 flex w-full animate-float items-center overflow-hidden lg:mt-0 lg:w-1/3 lg:pb-0 lg:pr-24">
-            <Fade right>
+            
               <Image src={imgSrc} width={1122} height={1912} />
-            </Fade>
+            
           </div>
         </div>
         <p className="text-xs font-normal italic tracking-widest text-gray-400">

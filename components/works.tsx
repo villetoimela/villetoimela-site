@@ -12,12 +12,11 @@ export function Works({}: WorksProps) {
         {" "}
         {"< works >"}{" "}
       </p>
-      <Fade left>
+      
         <h1 className="mx-auto px-11 pb-5 font-Syne text-3xl font-extrabold tracking-widest text-red-300 sm:text-7xl">
           PORTFOLIO
         </h1>
-      </Fade>
-      <Fade right>
+      
       <WorksItem
           title={"Valmis sivusto esim. kissakahvilalle"}
           text={
@@ -29,8 +28,7 @@ export function Works({}: WorksProps) {
           tag1="NextJS / JavaScript / TailwindCSS / SendGrid API /"
           link={"https://templates-cat-cafe.netlify.app/"}
         />    
-      </Fade>
-      <Fade left>
+      
       <WorksItem
           title={"Tunturiretki.fi verkkosivut"}
           text={
@@ -42,8 +40,7 @@ export function Works({}: WorksProps) {
           tag1="NextJS / TypeScript / TailwindCSS / Nx / API / Intergration"
           link={"https://www.tunturiretki.fi/"}
         />    
-      </Fade>
-      <Fade right>
+     
       <WorksItem
           title={"Valmis sivusto tatuointi-liikkeelle"}
           text={
@@ -55,8 +52,7 @@ export function Works({}: WorksProps) {
           tag1="React / NextJS / TypeScript / TailwindCSS / Nx monorepo "
           link={"https://tattoo-shop.demo.hiisi.digital/"}
         />
-      </Fade>
-      <Fade left>
+      
       <WorksItem
           title={"Valmis sivusto esim. kampaamolle"}
           text={
@@ -68,8 +64,7 @@ export function Works({}: WorksProps) {
           tag1="React / NextJS / TypeScript / TailwindCSS / Nx monorepo "
           link={"https://kampaamo.demo.hiisi.digital/"}
         />
-      </Fade>
-      <Fade right>
+      
       <WorksItem
           title={"hiisi.digital site"}
           text={
@@ -81,8 +76,7 @@ export function Works({}: WorksProps) {
           tag1="React / NextJS / TypeScript / TailwindCSS / Nx / API"
           link={"https://hiisi.digital"}
         />
-      </Fade>
-      <Fade left>
+    
       <WorksItem
           title={"personal portfolio"}
           text={
@@ -94,8 +88,7 @@ export function Works({}: WorksProps) {
           tag1="React / NextJS / TypeScript / TailwindCSS"
           link={"https://gitlab.com/villetoimela/villetoimela-site"}
         />
-      </Fade>
-      <Fade right>
+    
       <WorksItem
           title={"ez-math-game"}
           text={
@@ -107,8 +100,7 @@ export function Works({}: WorksProps) {
           tag1="React / JavaScript / TailwindCSS"
           link={"https://ez-math-game.netlify.app/"}
         />
-      </Fade>
-      <Fade left>
+     
       <WorksItem
           title={"EliJuomapeli"}
           text={
@@ -120,8 +112,7 @@ export function Works({}: WorksProps) {
           tag1="React / JavaScript / TailwindCSS / PWA "
           link={"https://www.elijuomapeli.com/"}
         />
-      </Fade>
-      <Fade right>
+     
       <WorksItem
           title={"Public API list appi"}
           text={
@@ -133,8 +124,7 @@ export function Works({}: WorksProps) {
           tag1="React / JavaScript / TailwindCSS / API / Axios"
           link={"https://gitlab.com/villetoimela/public-api-list"}
         />
-      </Fade>
-      <Fade left>
+      
         <WorksItem
           title={"Crypto tracker app"}
           text={
@@ -146,7 +136,7 @@ export function Works({}: WorksProps) {
           tag1="React / NextJS / CSS / API"
           link={"https://gitlab.com/villetoimela/nextjs-crypto-app"}
         />
-      </Fade>
+     
       <p className="mx-auto max-w-7xl pl-11 pb-4 text-xs font-normal italic tracking-widest text-gray-400 2xl:pl-0">
         {" "}
         {"< /works >"}{" "}

@@ -16,32 +16,32 @@ export function About({ imgSrc }: AboutProps) {
           {" "}
           {"< about >"}{" "}
         </p>
-        <Fade right>
+       
           <h2 className="font-Syne text-3xl font-extrabold tracking-widest text-white sm:text-7xl">
             MINUSTA
           </h2>
-        </Fade>
+        
         <div className="mt-4 border border-red-300 sm:mb-20"></div>
         <div className="flex flex-col items-center lg:flex-row">
           <div className="mt-16 flex w-full animate-float items-center pb-10 lg:mt-0 lg:w-1/3 lg:pb-0 lg:pr-24">
-            <Fade left>
+            
               <Image src={imgSrc} width={2340} height={1761} />
-            </Fade>
+            
           </div>
           <div className="relative w-full lg:w-2/3">
             <div className=" overflow-hidden">
               
                 <p className="font-Syne text-base font-bold tracking-wider text-white ">
                   Tervehdys!
-                  <Fade bottom>
+                
                   <p className="pb-4 pt-4">
                     {" "}
                     Viime vuosina olen alkanut
                     tositarkoituksella toteuttamaan unelmaani devaajaksi
                     ryhtymisestä.
                   </p>{" "}
-                  </Fade>
-                  <Fade bottom>
+                  
+                  
                   <p className="pb-4">
                     {" "}
                     Omaan valtavan määrän intoa, motivaatiota 
@@ -54,8 +54,7 @@ export function About({ imgSrc }: AboutProps) {
                     vuotta kestäneen työsuhteeni syyskuussa 2021 syventyäkseni 
                     devaamiseen sataprosenttisesti.{" "}
                   </p>{" "}
-                  </Fade>
-                  <Fade bottom>
+                  
                   <p className="pb-4">
                     Helmikuun alussa perustimmekin kahden miehen voimin
                     yrityksen, jonka kanssa on saanut tehdä töitä nyt siitä
@@ -65,8 +64,8 @@ export function About({ imgSrc }: AboutProps) {
                     </Link>
                     in sivut jos kinostelee!
                   </p>{" "}
-                  </Fade>
-                  <Fade bottom>
+                  
+                  
                   <p>
                     {" "}
                     Olen tykittäny kymmeniä tuhansia tunteja hc-hikoilua pelien
@@ -74,14 +73,14 @@ export function About({ imgSrc }: AboutProps) {
                     lukema mittariin, mutta ohjelmistokehityksen parissa. Ja
                     nälkä vain kasvaa tehdessä!
                   </p>
-                  </Fade>
+                  
                 </p>
               
-              <Fade right>
+              
                 <p className="mt-12 font-Syne text-sm font-bold uppercase italic text-red-300">
                   " Software developer or a professional Google searcher? "
                 </p>
-              </Fade>
+              
             </div>
           </div>
         </div>
